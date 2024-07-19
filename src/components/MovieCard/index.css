@@ -1,0 +1,113 @@
+.movie-card {
+    position: relative;
+    width:275px;
+    height: 500px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin:5px;
+    background-color: white;
+  }
+  
+  .movie-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-0.5rem);
+  }
+  
+  .movie-card-image {
+    width:100%;
+    height: 200px;
+
+  }
+  
+  .movie-card-content {
+    background-color: #ffffff;
+  }
+  
+  .movie-card-content h3 {
+    font-size:small;
+    font-weight: bold;
+  }
+  
+  .movie-card-content p {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #555555;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .movie-card {
+      border-radius: 0.5rem;
+    }
+  
+    .movie-card-content h3 {
+      font-size: 1.5rem;
+    }
+  
+    .movie-card-content p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .movie-card {
+      border-radius: 0.75rem;
+      
+    }
+  
+    .movie-card-content h3 {
+      font-size: 1.75rem;
+    }
+  
+    .movie-card-content p {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .movie-card {
+      border-radius: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .movie-card-content h3 {
+      font-size: 2rem;
+    }
+  
+    .movie-card-content p {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .movie-card {
+      border-radius: 1rem;
+      padding: 1.75rem;
+    }
+  
+    .movie-card-content h3 {
+      font-size: 2.25rem;
+    }
+  
+    .movie-card-content p {
+      font-size: 1.375rem;
+    }
+  }
+  
+  @media screen and (max-width: 1600px) {
+    .movie-card {
+      border-radius: 1.25rem;
+      
+    }
+  
+    .movie-card-content h3 {
+      font-size: 2.5rem;
+    }
+  
+    .movie-card-content p {
+      font-size: 1.5rem;
+    }
+  }
+  
